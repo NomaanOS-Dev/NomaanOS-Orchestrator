@@ -1,0 +1,25 @@
+﻿services:
+  sas-enclave:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nomaanos-enclave
+    ports:
+      - "8080:8080"
+    volumes:
+      - ledger-data:/app/data
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    networks:
+      - sas-internal
+    restart: unless-stopped
+
+volumes:
+  ledger-data:
+    driver: local
+
+networks:
+  sas-internal:
+    internal: true  # True Air-Gap: No egress access to public internet
