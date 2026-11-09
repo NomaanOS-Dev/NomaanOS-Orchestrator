@@ -1,12 +1,12 @@
-[submodule "NomaanOS-Core"]
-	path = NomaanOS-Core
-	url = ./NomaanOS-Core
+﻿[submodule "NomaanOS-Core"]
+path = NomaanOS-Core
+url = https://github.com/NomaanOS-Dev/NomaanOS-Core.git
 [submodule "NomaanOS-EvidenceLedger"]
-	path = NomaanOS-EvidenceLedger
-	url = ./NomaanOS-EvidenceLedger
+path = NomaanOS-EvidenceLedger
+url = https://github.com/NomaanOS-Dev/NomaanOS-EvidenceLedger.git
 [submodule "NomaanOS-GhostNode"]
-	path = NomaanOS-GhostNode
-	url = ./NomaanOS-GhostNode
+path = NomaanOS-GhostNode
+url = https://github.com/NomaanOS-Dev/NomaanOS-GhostNode.git
 [submodule "NomaanOS-ShieldSOC"]
-	path = NomaanOS-ShieldSOC
-	url = ./NomaanOS-ShieldSOC
+path = NomaanOS-ShieldSOC
+url = https://github.com/NomaanOS-Dev/NomaanOS-ShieldSOC.git
