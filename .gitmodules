@@ -1,0 +1,12 @@
+[submodule "NomaanOS-Core"]
+	path = NomaanOS-Core
+	url = ./NomaanOS-Core
+[submodule "NomaanOS-EvidenceLedger"]
+	path = NomaanOS-EvidenceLedger
+	url = ./NomaanOS-EvidenceLedger
+[submodule "NomaanOS-GhostNode"]
+	path = NomaanOS-GhostNode
+	url = ./NomaanOS-GhostNode
+[submodule "NomaanOS-ShieldSOC"]
+	path = NomaanOS-ShieldSOC
+	url = ./NomaanOS-ShieldSOC
