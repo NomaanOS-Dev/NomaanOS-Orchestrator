@@ -1,4 +1,4 @@
-﻿[submodule "NomaanOS-Core"]
+[submodule "NomaanOS-Core"]
 path = NomaanOS-Core
 url = https://github.com/NomaanOS-Dev/NomaanOS-Core.git
 [submodule "NomaanOS-EvidenceLedger"]
